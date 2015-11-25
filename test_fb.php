@@ -1,7 +1,7 @@
 
 <?php
 
-section_start();
+session_start();
 $fb = new Facebook\Facebook([
   'app_id' => '{1716206565276671}',
   'app_secret' => '{7789502950aaba2c4849970e73556199}',
