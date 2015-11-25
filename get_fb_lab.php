@@ -1,6 +1,6 @@
 <?php
 $selIndex=$_GET['selIndex'];
-$con = mysqli_connect('us-cdbr-iron-east-03.cleardb.net','ba60ab5043afbc','6488aafe','ad_a01a70d21ba2f96');
+$con = mysqli_connect('us-cdbr-iron-east-03.cleardb.net:3306','ba60ab5043afbc','6488aafe','ad_a01a70d21ba2f96');
 //Handle DB connection error
 if (!$con)
 {
