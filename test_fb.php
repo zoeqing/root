@@ -1,6 +1,5 @@
 
 <?php
-require_once __DIR__ . '/vendor/autoload.php';
 
 section_start();
 $fb = new Facebook\Facebook([
